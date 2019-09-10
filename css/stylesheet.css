@@ -79,16 +79,16 @@ article {
 }
 .event-description {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 .event-description img {
-    max-width: 25%;
+    max-width: 70%;
     align-self: center;
-    margin-right: .5em;
+    margin: 1em;
 }
 .event-description p {
-    width: 75%;
-    font-size: 1.2em;
+    width: 100%;
+    font-size: 18px;
 }
 @media screen and (max-width: 768px) {
     article {
