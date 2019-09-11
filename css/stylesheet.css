@@ -87,7 +87,12 @@ article {
 }
 .event-description p {
     width: 100%;
-    font-size: 14px;
+    font-size: 15px;
+}
+div#grid-menu > div:nth-child(2n) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 @media screen and (max-width: 768px) {
     article {
