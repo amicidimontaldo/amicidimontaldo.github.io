@@ -4,38 +4,46 @@
     font-family: sans-serif;
     margin: 0;
     padding: 0;
-    overflow-x:hidden;
+    overflow-x: hidden;
 }
-h1 { 
+
+h1 {
     font-size: 1.5em;
     color: darkgreen;
 }
+
 h2 {
     font-size: 1.2em;
     padding: .5em 0;
     color: darkgreen;
 }
+
 #link-wrapper {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
 }
+
 #link-wrapper a {
     display: flex;
     align-items: flex-end;
 }
+
 #link-wrapper img {
     width: 23px;
     margin-right: .2em;
 }
+
 a {
     color: darkgreen;
     margin-top: .5em;
     transition: .5s color;
     display: inline-block;
 }
+
 a#link-facebook {
     color: darkblue;
 }
+
 #btn-submit {
     background-color: darkgreen;
     color: white;
@@ -44,12 +52,14 @@ a#link-facebook {
     border: 0;
     margin-top: .5em;
 }
+
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
 }
+
 #header-main {
     background-image: url("./img/amici.jpg");
     background-size: cover;
@@ -59,10 +69,12 @@ body {
     background-image: url("./img/amici.jpg");
     background-position-y: -350px;
 }
+
 #header {
     width: 100%;
     padding: 20px;
 }
+
 article {
     display: flex;
     flex-direction: column;
@@ -76,59 +88,72 @@ article {
     width: 50%;
     background-color: white;
 }
+
 .event-description {
     display: flex;
     flex-direction: column;
 }
+
 .event-description img {
     max-width: 70%;
     align-self: center;
     margin: 1em;
 }
+
 .event-description p {
     width: 100%;
     font-size: 15px;
 }
-div#grid-menu > div:nth-child(2n) {
+
+div#grid-menu>div:nth-child(2n) {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 @media screen and (max-width: 768px) {
     article {
         margin: 5%;
         width: 90%;
     }
+
     .event-description {
         flex-direction: column;
         justify-content: center;
     }
+
     .event-description img {
         max-width: 50%;
         margin: .5em 0;
     }
+
     .event-description p {
         width: 100%;
         font-size: 1em;
     }
 }
+
 article header {
     font-size: 1.2em;
     font-weight: bold;
 }
+
 article:nth-last-child(1) {
-        margin-bottom: 2%;
+    margin-bottom: 2%;
 }
+
 footer {
     background-color: darkgreen;
-    color:white;
+    color: white;
     width: 100%;
     padding: 10px 20px;
     text-align: center;
 }
+
 #tlemail {
     padding: .5em;
 }
+
 #grid-menu {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -136,10 +161,25 @@ footer {
     font-family: sans-serif;
     font-size: .9em;
     margin: 1em;
-  }
-  #grid-menu div {
+}
+
+#grid-menu div {
     padding: .4em;
-  }
-  .grid-menu-colored {
+}
+
+.grid-menu-colored {
     background-color: #dfdfdf;
-  }
+}
+
+table {
+    margin: 10px 0;
+    border: 1px solid lightgreen;
+}
+
+table tr {
+    line-height: 1.4;
+}
+
+table tr:nth-child(even) {
+    background-color: lightgreen;
+}
